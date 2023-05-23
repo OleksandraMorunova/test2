@@ -1,0 +1,160 @@
+{
+	"info": {
+		"_postman_id": "33d8e861-12b0-4289-87c1-e2268ac1290a",
+		"name": "image-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25424944"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7013/upload-by-url",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"url\": \"https://ichef.bbci.co.uk/news/640/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7013/upload-by-url",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"upload-by-url"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7013/get-url/9/size/300",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/get-url/9/size/300",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"get-url",
+						"9",
+						"size",
+						"300"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7013/api/images/get-url/remove/9",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/api/images/get-url/remove/9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"api",
+						"images",
+						"get-url",
+						"remove",
+						"9"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7013/get-url/9",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7013/get-url/9",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7013",
+					"path": [
+						"get-url",
+						"9"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "post-variable-1-400",
+			"value": "https://drive.google.com/file/d/1bQE2r-lvIsKZYPNRMSEfu89s9oZbXr2C/view",
+			"type": "string"
+		},
+		{
+			"key": "post-variable-2-400",
+			"value": "https://media.interfax.com.ua/media/thumbs/images/2017/10/oGSuAC-TTtsb.jpg",
+			"type": "string"
+		},
+		{
+			"key": "post-variable-3-200",
+			"value": "https://ichef.bbci.co.uk/news/640/cpsprodpb/16620/production/_91408619_55df76d5-2245-41c1-8031-07a4da3f313f.jpg",
+			"type": "string"
+		},
+		{
+			"key": "get-min-id-in-bd",
+			"value": "6",
+			"type": "string"
+		},
+		{
+			"key": "get-max-id-in-bd",
+			"value": "9",
+			"type": "string"
+		},
+		{
+			"key": "slide-100x100",
+			"value": "100",
+			"type": "string"
+		},
+		{
+			"key": "slide-300x300",
+			"value": "300",
+			"type": "string"
+		}
+	]
+}
