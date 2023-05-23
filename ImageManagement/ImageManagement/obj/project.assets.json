@@ -3421,11 +3421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\ImageManagement\\ImageManagement\\ImageManagement.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\test2\\ImageManagement\\ImageManagement\\ImageManagement.csproj",
       "projectName": "ImageManagement",
-      "projectPath": "C:\\Users\\User\\Desktop\\ImageManagement\\ImageManagement\\ImageManagement.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\test2\\ImageManagement\\ImageManagement\\ImageManagement.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\ImageManagement\\ImageManagement\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\test2\\ImageManagement\\ImageManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
