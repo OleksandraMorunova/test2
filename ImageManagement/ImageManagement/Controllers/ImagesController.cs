@@ -1,5 +1,6 @@
 ﻿using DocumentFormat.OpenXml.Office2010.Excel;
 using ImageManagement.Model;
+using ImageManagement.NewFolder;
 using ImageManagement.Service;
 using Microsoft.AspNetCore.Mvc;
 using System.Drawing;
